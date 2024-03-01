@@ -3,5 +3,6 @@
 @import 'tailwindcss/utilities';
 
 body{
-  @apply bg-[#222];
+    font-family: Montserrat;
 }
+
