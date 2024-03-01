@@ -1,13 +1,13 @@
 
 const Footer = () => {
     return (
-        <div className="mt-28 px-20 mb-4 text-primaryGray">
-            <div className="flex justify-around mb-10">
+        <div className="mt-28 md:px-20 px-5 mb-4 text-primaryGray">
+            <div className="flex md:justify-around flex-col md:flex-row mb-10">
                 <h2 className="text-xl font-bold text-black">Bandage</h2>
-                <div className="text-[#23A6F0] flex gap-5 items-center">
-                    <i className="fab fa-facebook" />
-                    <i className="fab fa-instagram" />
-                    <i className="fab fa-twitter" />
+                <div className="text-[#23A6F0] flex gap-5 items-center mt-6 md:mt-0">
+                    <i className="fab fa-facebook text-xl" />
+                    <i className="fab fa-instagram text-xl" />
+                    <i className="fab fa-twitter text-xl" />
                 </div>
             </div>
             <hr />
@@ -59,7 +59,7 @@ const Footer = () => {
 
             </div>
 
-            <p className="ms-12 mt-10 font-bold">Made With Love By Finland All Right Reserved </p>
+            <p className="ms-12 mt-10 font-bold md:text-balance text-center">Made With Love By Finland All Right Reserved </p>
         </div>
     )
 }
